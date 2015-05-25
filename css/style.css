@@ -1,0 +1,98 @@
+body {
+	font-family:'Slabo 27px', serif;
+	back:gainsboro;
+}
+
+.titleArea {
+	height:200px;
+}
+
+
+.page-title {
+	color:black;
+	text-align:center;
+	font-style: bold;
+	font-size: 85px;
+	padding-top: 10px;
+	margin:0px;
+}
+
+.page-subtitle {
+	color:black;
+	text-align:center;
+	font-size: 40px;
+	padding-top:30px;
+	margin-top:0px;
+	padding-bottom: 30px;
+}
+
+.pageBreak {
+	height:80px;
+	background-image: url("http://www.drugdangers.com/wp-content/uploads/2013/04/prozac.jpg");
+	background-size:200px;
+	border-style: solid white 5px;
+}
+
+
+.issueType ul {	
+  margin: 0px;
+  padding-top: 30px;
+  list-style-type: none;
+  text-align:center;
+}
+
+.issueType ul li {
+	display: inline;
+	padding: 15px 15px 15px 15px;
+	border:dotted black 1px;
+}
+
+.issueType ul li a {
+	text-decoration: none;
+	padding: 5px 5px 5px 5px;
+	color:black;
+	font-size: 25px;
+}
+
+.subtitleArea {
+	height:150px;
+}
+
+.subpage-title {
+	color:black;
+	text-align:center;
+	font-style: bold;
+	font-size: 45px;
+	padding-top: 10px;
+	margin:0px;
+}
+
+.subpage-subtitle {
+	color:black;
+	text-align:center;
+	font-size: 25px;
+	padding-top:20px;
+	margin-top:0px;
+	padding-bottom: 5px;
+}
+
+.workpageBreak {
+	height:80px;
+	background-image: url("http://cdn2.bigcommerce.com/server5500/1ibchoby/product_images/uploaded_images/boring-cubicles.jpg?t=1421626454");
+	background-size:150px;
+	border-style: solid white 5px;
+}
+
+.footer {
+	border-radius:5px 5px 5px 5px;
+	border:2px dotted black;
+	height: 20px;
+	backgroud-color: whitesmoke;
+	text-align: center;
+	margin:5px 5px 5px 5px;
+}
+
+.footer a {
+	text-decoration: none;
+}
+

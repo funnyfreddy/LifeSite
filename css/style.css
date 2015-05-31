@@ -26,12 +26,36 @@ body {
 	padding-bottom: 30px;
 }
 
+/* -----BEGINING OF IMAGE SECTION------ */ 
+
+/* Image below is used for home page */
 .pageBreak {
 	height:80px;
-	background-image: url("http://www.drugdangers.com/wp-content/uploads/2013/04/prozac.jpg");
+	background-image: url("images/prozac.jpg");
 	background-size:200px;
 	border-style: solid white 5px;
 }
+
+/* Image below is used for work it out */
+.workpageBreak {
+	height:80px;
+	background-image: url("images/boring-cubicles.jpg");
+	background-size:150px;
+	border-style: solid white 5px;
+}
+
+/* Image below is used for Antisocial */
+.antipageBreak {
+	height:150px;
+	background-image: url("images/antisocial_neon.jpg");
+	background-size:150px;
+	border-style: solid white 5px;
+}
+
+
+
+
+/* -----END OF IMAGE SECTION------ */
 
 
 .issueType ul {	
@@ -76,12 +100,6 @@ body {
 	padding-bottom: 5px;
 }
 
-.workpageBreak {
-	height:80px;
-	background-image: url("http://cdn2.bigcommerce.com/server5500/1ibchoby/product_images/uploaded_images/boring-cubicles.jpg?t=1421626454");
-	background-size:150px;
-	border-style: solid white 5px;
-}
 
 .footer {
 	border-radius:5px 5px 5px 5px;
@@ -95,4 +113,18 @@ body {
 .footer a {
 	text-decoration: none;
 }
+
+/*Antisocial specific resources below (start point) */
+
+#antisocial_background_solid {
+	background-color: #EEFFBF;
+}
+
+
+
+
+
+
+
+
 

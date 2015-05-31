@@ -52,7 +52,13 @@ body {
 	border-style: solid white 5px;
 }
 
-
+/* Image below is used for Love */
+.lovepageBreak {
+	height:150px;
+	background-image: url("images/banksy-heart-original.jpg");
+	background-size:200px;
+	border-style: solid white 5px;
+}
 
 
 /* -----END OF IMAGE SECTION------ */
@@ -112,6 +118,110 @@ body {
 
 .footer a {
 	text-decoration: none;
+}
+
+
+.questionArea {
+	text-align: center;
+	background-color: #FFF5EB;
+	margin: 25px 25px 25px 25px;
+	padding: 15px 15px 15px 15px;
+	border: black dotted 1px;
+	border-radius: 20px;
+}
+
+/*to hide all questions except the current question*/
+.questionLeadin {
+	display: none;
+}
+
+/*to show properties of current question*/
+.Qcurrent {
+	display: block;
+	text-align: center;
+	color:#800000;
+	font-size: 30px;
+	padding: 5px 5px 5px 5px;
+	margin: 0% 15% 0% 15%;
+	border-radius: 15px;
+	background-color: #EBD6CC;
+
+}
+
+.question {
+	text-align: center;
+	font-size: 40px;
+	color:800000;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 0px 0px 0px;
+}
+
+.questions {
+	display:none;
+}
+
+.Qscurrent {
+	display: block;
+}
+
+.answerlist {	
+  margin: 0px;
+  padding: 5px 5px 5px 5px;
+  list-style-type: none;
+  display: table;
+  width: 100%;
+  border-spacing: 10px;
+  border-collapse: separate;
+}
+
+.answers {
+	position: relative;
+	vertical-align: middle;
+	padding: 5px 30px 5px 30px;
+	border:dotted black 1px;
+	border-radius: 15px;
+	background-color: #800000;
+	display: table-cell;
+	width: 350px;
+	text-align: center;
+	vertical-align: middle;
+	margin: auto;
+	font-size: 18px;
+	color:#EBD6CC;
+}
+
+/*hovering over an answer w your mouse*/
+.answers:hover {
+	position: relative;
+	vertical-align: middle;
+	padding: 5px 30px 5px 30px;
+	border:dotted black 1px;
+	border-radius: 15px;
+	background-color: #EBD6CC;
+	display: table-cell;
+	width: 350px;
+	text-align: center;
+	vertical-align: middle;
+	margin: auto;
+	font-size: 18px;
+	color:#800000;
+}
+
+/*selected answer - can't quite get this to work yet*/
+.answers .clicked {
+	position: relative;
+	vertical-align: middle;
+	padding: 5px 30px 5px 30px;
+	border:solid 800000 1.5px;
+	border-radius: 15px;
+	background-color: #EBD6CC;
+	display: table-cell;
+	width: 350px;
+	text-align: center;
+	vertical-align: middle;
+	margin: auto;
+	font-size: 18px;
+	color:#800000;
 }
 
 /*Antisocial specific resources below (start point) */
